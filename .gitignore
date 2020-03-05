@@ -1,3 +1,5 @@
 /.vscode
 /aws_repeated_options
 res.json
+credentials.json
+recipient.json
