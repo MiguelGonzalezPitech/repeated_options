@@ -163,6 +163,7 @@ def check_all_blocks(quantity, amount):
             block_data = json.loads(t)
         except json.decoder.JSONDecodeError:
             print('This is not a valid json format.')
+            continue
 
         for individual_block in block_data:
             if 'options' in individual_block:
